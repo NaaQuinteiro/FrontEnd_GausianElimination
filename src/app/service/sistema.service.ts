@@ -18,7 +18,7 @@ export interface SistemaResponse {
 })
 export class SistemaService {
 
-  private apiUrl = 'http://127.0.0.1:8000/resolver';
+  private apiUrl = 'https://back-end-gausian-elimination.vercel.app/resolver';
 
   constructor(private http: HttpClient) {}
 
